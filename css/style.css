@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+
+.btn{
+  margin: auto;
+}
+span{
+  margin: 0 auto;
+}
+form div input{
+  margin: 0 auto;
+}
