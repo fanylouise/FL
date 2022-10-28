@@ -9,23 +9,12 @@
 html{
   background-color: #222831;
 }
-li a{
-  text-decoration: none;
-  color: #d9d9d9;
+header{
+  border-bottom: 3px solid #2D4059;
+  background-color: #222831; 
 }
-svg{
-  width: 100%;
-  
-}
-ul svg{
-  display: inline;
-}
-.container{
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+nav ul li{
+  margin:15px;
 }
 ul{
   display: flex;
@@ -33,25 +22,74 @@ ul{
   align-items: center;
   flex-direction: row;
 }
-nav ul li{
-  margin:15px;
+.techs{
+  list-style: none;
+}
+ul svg{
+  display: inline;
+}
+svg{
+  width: 100%;
 }
 li{
-  font-size: 36px;
+  font-size: 24px;
+  color: #d9d9d9;
+  padding: 5px;
+}
+li a{
+  text-decoration: none;
   color: #d9d9d9;
 }
-header{
-  border-bottom: 3px solid #2D4059;
-  background-color: #222831; 
+li a:hover{
+  color: #F89406;
+  text-decoration: none;
 }
-.help{
+
+.container{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.presentation{
+
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2D4059;
+  flex-direction: column;
+  margin: 0px auto;
+  padding: 32px;
+  overflow: hidden;
+  background-color: #222831;
 }
-.help h1{
-  margin: 15px;
-  color: red;
+.presentationTitle{
+  margin: 0 auto;
+  font-size: 48px;
+  color: #d9d9d9;
+}
+.presentationText{
   
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 5px;
+  font-size: 22px;
+  color: #d9d9d9;
+}
+.myName{
+  color: #F89406;
+
+}
+.mainSkills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #222831;
+}
+.mainTitle{
+  color: #F89406;
+  font-size: 48px;
 }
