@@ -32,7 +32,7 @@ svg{
   width: 100%;
 }
 li{
-  font-size: 24px;
+  font-size: 30px;
   color: #d9d9d9;
   padding: 5px;
 }
@@ -66,7 +66,7 @@ li a:hover{
 }
 .presentationTitle{
   margin: 0 auto;
-  font-size: 48px;
+  font-size: 3rem;
   color: #d9d9d9;
 }
 .presentationText{
@@ -91,5 +91,32 @@ li a:hover{
 }
 .mainTitle{
   color: #F89406;
-  font-size: 48px;
+  font-size: 3rem;
+}
+.projects{
+  background-color: #222831;
+}
+.projectsTitle{
+  color: #F89406;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+}
+.project1, .project2, .project3, .project4{
+  height: 400px;
+  width: 270px;
+  padding: 1rem;
+  background-color: #f8930600;
+  border:3px solid #F89406;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstPage{
+
+  width: 100%;
 }
