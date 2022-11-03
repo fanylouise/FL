@@ -1,3 +1,9 @@
-Arrumar logo(está torta);
-Terminar Header;
-Fazer animação da logo;
+Arrumar logo(está torta); 👍
+
+Terminar Header;  👍
+
+Fazer animação da logo;  👍
+
+Fazer resume em ingles e em português, fazer o 'JS' para dependendo da esoclha do visitante o conteúdo se mostrar na linguagem escolhida;
+
+Fazer a transição do hover de todos os links + suave.

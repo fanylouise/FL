@@ -37,7 +37,7 @@
   <body>
 
 
-    <section class="firstPage">
+    <section class="firstPage" id="home">
 
     
 <!--HEADER-->
@@ -46,7 +46,7 @@
           <ul class="nav">
             <li class="navLink"><a href="#home">Home</a> </li>
             <li class="navLink"><a href="#about">About</a> </li>
-            <li class="navLogo"><a href="">
+            <li class="navLogo"><a href="#home">
               <svg width="60" height="70" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="Group 10">
               <g id="FanyLouiseLogo">
@@ -69,33 +69,37 @@
     </header>
 
     <section class="presentation">
-      <h1 class="presentationTitle">Hi, I'am <span class="myName">Fany Louise</span></h1>
-      <p class="presentationText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod illo natus, iusto ut nesciunt eligendi possimus fugit officia delectus ipsam!
-
-      </p>
+      <p class="presentationText blue"  >Hello, welcome</p>
+      <h1 class="presentationTitle">I'm <span class="myName">Fany Louise</span></h1>
+      <p class="presentationText">
+        Frontend developer who is now learning about UI design, Python, React and Motion with CSS
     </section>
     <section class="mainSkills">
       <h1 class="titles">Main skills</h1>
       <ul class="techs">
         <li>
           <a alt="html simbol" href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-            <svg class="html" width="100" height="100" viewBox="0 0 103 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="HTML-BLUE">
-              <path id="SHIELD" d="M101 2H2L9.5 91.5L50 101L92 91.5L101 2Z" stroke="#2D4059" stroke-width="3"/>
-              <path id="HTML5" d="M22.5 55L19 20.5C20.0508 19.5042 20.8862 19.2712 22.5 19H84.5L83 33H35.5L36.5 41L83 42L79.5 78L52 84.5L25.5 78L23.5 58.5H38L39.5 66.5L52 70L64.5 66.5L66 55H22.5Z" stroke="#2D4059" stroke-width="3"/>
+              <path id="SHIELD" d="M102 2H2L9.57576 92.404L50.4848 102L92.9091 92.404L102 2Z" stroke="#2D4059" stroke-width="3"/>
+              <path id="HTML5" d="M22.7072 55.5354L19.1719 20.6869C20.2332 19.681 21.0772 19.4457 22.7072 19.1717H85.3335L83.8183 33.3131H35.8385L36.8486 41.3939L83.8183 42.404L80.283 78.7677L52.5052 85.3333L25.7375 78.7677L23.7173 59.0707H38.3638L39.8789 67.1515L52.5052 70.6869L65.1315 67.1515L66.6466 55.5354H22.7072Z" stroke="#2D4059" stroke-width="3"/>
               </g>
               </svg>
+              
                
           </a>
         </li>
         <li>
           <a  alt="css simbol" href="">
-            <svg width="100" height="100" viewBox="0 0 106 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="106" height="107" viewBox="0 0 106 107" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="CSS-BLUE">
               <path id="SHIELD" d="M104 2H2L11 95.5L53.5 104.5L95.5 95.5L104 2Z" stroke="#2D4059" stroke-width="3"/>
               <path id="CSS3" d="M85.5 18H21L22 31.5H69.5L68.5 40H52V54.5H67L66 66L54 69L41 66L40 56.5H24.5L26.5 76.5L54 84L81 76.5L85.5 18Z" stroke="#2D4059" stroke-width="3"/>
               </g>
               </svg>
+              
+              
+              
                
           </a>
         </li>
@@ -112,29 +116,31 @@
         </li>
         <li>
           <a alt="bootstrap4 simbol" href="">
-            <svg width="100" height="100" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g id="BOOTSTRAP4-BLUE">
-              <path id="SHIELD" d="M15.8462 2C4.5631 2 2 6.66321 2 18.5803C2 30.4974 2.001 78.6839 2 88.5285C1.999 98.3731 6.10156 102 15.8462 102M15.8462 2C27.1292 2 87.1282 2 87.1282 2M15.8462 2H87.1282M87.1282 2C97.6388 2.89136 101.048 5.89063 102 15.9896M102 15.9896C102 15.9896 102 79.2021 102 88.5285M102 15.9896V88.5285M102 88.5285C102 97.8549 98.9231 102 87.1282 102M87.1282 102C75.3333 102 25.5907 102 15.8462 102M87.1282 102H15.8462" stroke="#2D4059" stroke-width="3"/>
-              <path id="B-STROKE" d="M75.8465 40.5147C78.4106 34.8152 74.308 20.8255 64.0516 19.2712C53.7952 17.7168 24.5645 19.2712 24.5645 19.2712V85.0743C24.5645 85.0743 50.2055 85.5924 63.026 85.0743C75.8465 84.5561 78.9234 79.3748 79.4363 68.494C79.9491 57.6131 73.4443 50.0803 63.026 50.3592C72.259 48.4914 73.2641 46.2566 75.7746 40.6746M75.8465 40.5147L75.7746 40.6746M75.8465 40.5147C75.8224 40.5683 75.7984 40.6216 75.7746 40.6746" stroke="#2D4059" stroke-width="3"/>
-              <path id="B-ROLES" d="M39.4357 29.9793V47.0777M39.4357 29.9793C39.4357 29.9793 55.3331 29.9793 59.4357 29.9793M39.4357 29.9793H59.4357M39.4357 47.0777C39.4357 47.0777 55.8459 47.0777 59.4357 47.0777M39.4357 47.0777H59.4357M59.4357 47.0777C63.0254 47.0777 63.5382 29.9793 59.4357 29.9793M38.9229 54.3316V74.0207M38.9229 54.3316C38.9229 54.3316 48.6664 54.3316 58.41 54.3316M38.9229 54.3316H58.41M38.9229 74.0207C38.9229 74.0207 50.7177 74.0207 58.41 74.0207M38.9229 74.0207H58.41M58.41 74.0207C66.1023 74.0207 68.1536 54.3316 58.41 54.3316" stroke="#2D4059" stroke-width="3"/>
+            <svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="BOOTSTRAP4">
+              <path id="SHIELD" d="M15.8462 2C4.5631 2 2 6.66321 2 18.5803C2 30.4974 2.001 78.6839 2 88.5285C1.999 98.3731 6.10156 102 15.8462 102M15.8462 2C27.1292 2 87.1282 2 87.1282 2M15.8462 2H87.1282M87.1282 2C97.6388 2.89136 101.048 5.89063 102 15.9896M102 15.9896C102 15.9896 102 79.2021 102 88.5285M102 15.9896V88.5285M102 88.5285C102 97.8549 98.9231 102 87.1282 102M87.1282 102C75.3333 102 25.5907 102 15.8462 102M87.1282 102H15.8462" stroke="#563D7C" stroke-width="3"/>
+              <path id="B-STROKE" d="M75.8465 40.5147C78.4106 34.8152 74.308 20.8255 64.0516 19.2712C53.7952 17.7168 24.5645 19.2712 24.5645 19.2712V85.0743C24.5645 85.0743 50.2055 85.5924 63.026 85.0743C75.8465 84.5561 78.9234 79.3748 79.4363 68.494C79.9491 57.6131 73.4443 50.0803 63.026 50.3592C72.259 48.4914 73.2641 46.2566 75.7746 40.6746M75.8465 40.5147L75.7746 40.6746M75.8465 40.5147C75.8224 40.5683 75.7984 40.6216 75.7746 40.6746" stroke="#563D7C" stroke-width="3" stroke-linejoin="round"/>
+              <path id="B-ROLES" d="M39.4357 29.9792V47.0777M39.4357 29.9792C39.4357 29.9792 55.3331 29.9792 59.4357 29.9792M39.4357 29.9792H59.4357M39.4357 47.0777C39.4357 47.0777 55.8459 47.0777 59.4357 47.0777M39.4357 47.0777H59.4357M59.4357 47.0777C63.0254 47.0777 63.5382 29.9793 59.4357 29.9792M38.9229 54.3316V74.0207M38.9229 54.3316C38.9229 54.3316 48.6664 54.3316 58.41 54.3316M38.9229 54.3316H58.41M38.9229 74.0207C38.9229 74.0207 50.7177 74.0207 58.41 74.0207M38.9229 74.0207H58.41M58.41 74.0207C66.1023 74.0207 68.1536 54.3316 58.41 54.3316" stroke="#563D7C" stroke-width="3"/>
               </g>
               </svg>
+              
               
                            
           </a>
         </li>
         <li>
           <a alt="react simbol" href="">
-            <svg width="100" height="100" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="REACT-BLUE">
-              <g id="Group">
-              <path id="ELIPSE3" fill-rule="evenodd" clip-rule="evenodd" d="M52.0008 30.4634C64.5249 30.4634 76.1595 32.4947 84.9319 35.9083C95.5014 40.0214 102 46.2557 102 51.9009C102 57.7835 95.1128 64.4067 83.7626 68.6574C75.1815 71.8709 63.8894 73.5485 52.0008 73.5485C39.8118 73.5485 28.2695 71.9739 19.5917 68.6221C8.61273 64.3804 2 57.6715 2 51.9009C2 46.3015 8.20478 40.1153 18.6257 36.0086C27.4309 32.5386 39.3527 30.4634 51.9992 30.4634H52.0008Z" stroke="#2D4059" stroke-width="3"/>
-              <path id="ELIPSE2" fill-rule="evenodd" clip-rule="evenodd" d="M35.4896 41.244C41.7464 28.9809 49.1152 18.6035 56.1139 11.7191C64.5462 3.42452 72.5708 0.176119 76.897 2.99598C81.4057 5.93481 83.0408 15.9875 80.6283 29.2245C78.8061 39.2324 74.4488 51.1268 68.5095 62.7678C62.42 74.703 55.4473 85.2183 48.544 92.0387C39.8086 100.67 31.3632 103.794 26.9407 100.911C22.6492 98.1154 21.0081 88.9477 23.0668 76.692C24.8063 66.3369 29.1716 53.6268 35.4875 41.2438L35.4896 41.244Z" stroke="#2D4059" stroke-width="3"/>
+              <g>
+              <path  fill-rule="evenodd" clip-rule="evenodd" d="M52.0008 30.4634C64.5249 30.4634 76.1595 32.4947 84.9319 35.9083C95.5014 40.0214 102 46.2557 102 51.9009C102 57.7835 95.1128 64.4067 83.7626 68.6574C75.1815 71.8709 63.8894 73.5485 52.0008 73.5485C39.8118 73.5485 28.2695 71.9739 19.5917 68.6221C8.61273 64.3804 2 57.6715 2 51.9009C2 46.3015 8.20478 40.1153 18.6257 36.0086C27.4309 32.5386 39.3527 30.4634 51.9992 30.4634H52.0008Z" stroke="#2D4059" stroke-width="3"/>
+              <path id="SHIELD"fill-rule="evenodd" clip-rule="evenodd" d="M35.4896 41.244C41.7464 28.9809 49.1152 18.6035 56.1139 11.7191C64.5462 3.42452 72.5708 0.176119 76.897 2.99598C81.4057 5.93481 83.0408 15.9875 80.6283 29.2245C78.8061 39.2324 74.4488 51.1268 68.5095 62.7678C62.42 74.703 55.4473 85.2183 48.544 92.0387C39.8086 100.67 31.3632 103.794 26.9407 100.911C22.6492 98.1154 21.0081 88.9477 23.0668 76.692C24.8063 66.3369 29.1716 53.6268 35.4875 41.2438L35.4896 41.244Z" stroke="#2D4059" stroke-width="3"/>
               <path id="ELIPSE1" fill-rule="evenodd" clip-rule="evenodd" d="M35.5064 62.7991C29.2319 50.55 24.96 38.1488 23.1768 27.8572C21.0303 15.4571 22.548 5.97625 26.8703 3.14818C31.3745 0.200746 39.8962 3.61981 48.8371 12.5933C55.5971 19.3776 62.5386 29.5829 68.4951 41.2129C74.6021 53.1365 79.1792 65.2165 80.9597 75.3829C83.2128 88.2481 81.3893 98.078 76.9708 100.969C72.6836 103.775 64.8383 100.804 56.4729 92.6674C49.4048 85.7927 41.8428 75.1702 35.5064 62.7991Z" stroke="#2D4059" stroke-width="3"/>
-              <path id="ROLE" d="M52.0008 62.4446C57.1526 62.4446 61.3288 57.724 61.3288 51.9009C61.3288 46.0778 57.1526 41.3573 52.0008 41.3573C46.8491 41.3573 42.6729 46.0778 42.6729 51.9009C42.6729 57.724 46.8491 62.4446 52.0008 62.4446Z" fill="#2D4059"/>
+              <path id="SHIELD" d="M52.0008 62.4446C57.1526 62.4446 61.3288 57.724 61.3288 51.9009C61.3288 46.0778 57.1526 41.3573 52.0008 41.3573C46.8491 41.3573 42.6729 46.0778 42.6729 51.9009C42.6729 57.724 46.8491 62.4446 52.0008 62.4446Z" fill="#2D4059"/>
               </g>
               </g>
               </svg>
+              
               
                  
           </a>
@@ -146,18 +152,17 @@
   </section>
 
   
- <section class="projects">
+ <section class="projects" id="projects">
       <h1 class="titles">Projects</h1>
       <section class="group">
       <div class="project1"></div>
       <div class="project2"></div>
       <div class="project3"></div>
-      <div class="project4"></div>
       </section>
       
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <h1 class="titles">About me</h1>
       <section class="ilustration" title="https://www.instagram.com/hunbloom/" >
         <a href="https://www.instagram.com/hunbloom/" target="_blank">
@@ -197,41 +202,36 @@
         </a>
        
 
-          
-      </section>
-      
-        
+            <p class="presentationText">My story with development started in mid-2013, but I couldn't continue, because I didn't have a computer, but in 2020 I got a computer and from there I started taking courses and practicing, today I'm still learning and developing, my main interests are working as a freelancer and work as a junior developer. I always put my projects on github and here are my favorites at the moment, don't hesitate to contact me let's do business! My employment status is <span class="available">available</span>.</p> <!--colocar motion-->
 
-      <p class="presentationText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam illum repellendus, repudiandae qui sit accusantium atque beatae recusandae pariatur minima nemo id officia, sunt dolor, placeat aliquam! Eos vero libero illo accusantium mollitia ipsam odit modi fugit. Provident nemo cumque facere reiciendis minus adipisci rem porro autem similique quasi quas exercitationem voluptas praesentium, aperiam alias inventore magni quisquam! Aspernatur accusantium velit nihil odit eaque voluptates minus perspiciatis eligendi, iure, vel facere repellendus at quos repudiandae aliquam ratione! Error id architecto dolores laudantium tempore rerum voluptate accusamus asperiores harum, iusto sint recusandae possimus corporis inventore. Eius explicabo sunt ducimus libero quaerat?</p>
+            <button class="resume">
+              <a href="https://resume.io/r/c6VsrMWD6" target="_blank"><span></span>Resume </span>  ↗</a>
+            </button>
+      </section>
+    
       <h1 class="titles">Courses+</h1>
-      <!-- <ul class="courses">
-        <li>Computer Technician - ETC </li>
-        <li>Systems Analyst and Developer - Estacio de Sa</li>
-        <li>Front Push - Násser Yousef Ali</li>
-        <li>Fullstack Devolper JS </li>
-        <li>ORIGAMID</li>
-      </ul> -->
+
 
       <section class="courses">
         <ul class="formation">
           <li> <p><span class=" points point1">
           .
-        </span><a href="https://estacio.br/cursos/graduacao/analise-e-desenvolvimento-de-sistemas">Systems Analyst and Developer - Estacio de Sa [In progress]</a> </p></li>
+        </span><a href="https://estacio.br/cursos/graduacao/analise-e-desenvolvimento-de-sistemas" target="_blank">Systems Analyst and Developer - Estacio de Sa [In progress]</a> </p></li>
           <li>
             <p> <span class="points point2">
           .
-          </span><a href="http://etcdf.com.br/">Computer Technician - ETC</a>  </p></li>
+          </span><a href="http://etcdf.com.br/" target="_blank">Computer Technician - ETC</a>  </p></li>
           <li> <p><span class="points point3">
             .
-          </span><a href="https://www.frontpush.com.br/">FrontPush - Násser Yousef Ali</a> </p></li>
+          </span><a href="https://www.frontpush.com.br/" target="_blank">FrontPush - Násser Yousef Ali</a> </p></li>
           <li> 
             <p><span class="points point4">
              .
-            </span><a href="https://www.origamid.com/">Origamid</a> </p></li>
+            </span><a href="https://www.origamid.com/" target="_blank">Origamid</a> </p></li>
           <li>
             <p><span class="points point5">
               .
-            </span> <a href="https://www.startse.com/techacademy/">StartSe Tech Academy</a>   </p></li>
+            </span> <a href="https://www.startse.com/techacademy/" target="_blank">StartSe Tech Academy</a>   </p></li>
         </ul>
        
        
@@ -246,7 +246,7 @@
 
 
 
-    <footer class="contacts">
+    <footer class="contacts" id="contacts">
       <ul class="socialSvgGroup">
         <li>
           <a href="mailto:gandra.fany@gmail.com" target="_blank">
@@ -296,7 +296,7 @@
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://t.me/Nyouise" target="_blank">
             <svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="telegram">
               <path id="Vector" d="M30.7351 1L20.3278 31L14.3808 17.5L1 11.5L30.7351 1Z" stroke="#F89406" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -307,7 +307,8 @@
           </a>
         </li>
       </ul>
-      <svg width="50" height="50" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <a href="">
+        <svg width="50" height="50" viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="Group 10">
         <g id="FanyLouiseLogo">
         <path id="Rectangle 4" d="M72.7208 89.4525L7.41178 89.022C3.70902 88.9976 0.723487 85.9761 0.743403 82.2733C0.763318 78.5705 3.78114 75.5886 7.48389 75.613L72.7929 76.0436C76.4956 76.068 79.4812 79.0895 79.4613 82.7922C79.4413 86.495 76.4235 89.4769 72.7208 89.4525Z" fill="#0D0D0D" stroke="black"/>
@@ -318,7 +319,7 @@
         </g>
         </g>
         </svg>
-
+      </a>
         <p class="year">Fany Louise - 2022</p>
         
     </footer>

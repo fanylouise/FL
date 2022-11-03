@@ -12,7 +12,7 @@ html{
   background-color: #222831;
 }
 header{
-  border-bottom: 3px solid #2D4059;
+  border-bottom: 2px solid #2D4059;
   background-color: #222831; 
 }
 
@@ -30,13 +30,16 @@ svg{
   width: 100%;
 }
 li{
-  font-size: 30px;
+  font-size: 22px;
   color: #d9d9d9;
   padding: 5px;
 }
 p{
   font-size: 22px;
   color: #d9d9d9;
+}
+p.blue{
+  color:#2D4059;
 }
 .techs{
   list-style: none;
@@ -91,7 +94,7 @@ li a:hover{
 }
 .presentationText{
   
-  margin: 0 auto;
+  margin: 5px auto;
   max-width: 800px;
   text-align: center;
   padding: 5px;
@@ -110,6 +113,23 @@ li a:hover{
   align-items: center;
   flex-direction: column;
   background-color: #222831;
+  
+}
+.techs li{
+  margin:15px 15px;
+  
+}
+#SHIELD{
+  animation: reflection ease 5s infinite;
+}
+@keyframes reflection{
+  0%{
+    stroke-dasharray: 60px;
+  }
+  100%{
+    stroke-dasharray: 100px;
+   
+  }
 }
 
 /*PROJECTS*/
@@ -117,14 +137,14 @@ li a:hover{
   background-color: #222831;
 }
 
-.project1, .project2, .project3, .project4{
-  height: 400px;
-  width: 200px;
+.project1, .project2, .project3{
+  height: 300px;
+  width: 250px;
   padding: 1rem;
   background-color: #f8930600;
   border:3px solid #F89406;
   border-radius: 15px;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 .group{
   display: flex;
@@ -150,6 +170,53 @@ li a:hover{
 }
 .author a:hover{
   color: #d9d9d9;
+  text-decoration: none;
+}
+.available{
+  color:#22e011d9;
+  animation: light2 ease 5s infinite;
+}
+@keyframes light2{
+    0%{
+        opacity: 0.9;
+      
+    }
+    60%{
+        opacity: 0.8;
+        
+       
+    }
+    80%{
+        opacity: 0.7;
+     
+    }
+    100%
+    {
+        opacity: 1;
+      
+      
+    }
+  }
+.unavailable{
+  color:#ed2416ab;
+}
+.resume{
+  border: 3px solid #F89406;
+  background-color: #22283100;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  margin: 10px 0px;
+  padding: 5px;
+
+}
+.resume a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #d9d9d9;
+}
+.resume a:hover{
+  color: #F89406;
   text-decoration: none;
 }
 .formation{
@@ -187,9 +254,7 @@ li a:hover{
 .point5{
   animation: lighting  2s linear 1.5s alternate infinite ;
 }
-.html{
-  
-}
+
 /*LIST STYLE ANIMATION*/
 
 @keyframes lighting{
@@ -219,7 +284,7 @@ li a:hover{
 /*FOOTER*/
 footer{
   background-color: #222831;
-  border-top: 3px solid #2D4059;
+  border-top: 2px solid #2D4059;
 }
 .socialSvgGroup{
   list-style: none;
@@ -227,7 +292,13 @@ footer{
 
 }
 .socialSvgGroup li{
-  padding: 15px;
+  padding: 10px;
+  border:2px solid #2d405900;
+  border-radius: 5px;
+  margin: 10px 5px;
+}
+.socialSvgGroup li:hover{
+ background-color: #2D4059;
 }
 .year{
   font-size: 1.2rem;
@@ -248,9 +319,6 @@ footer ul{
   #FanyLouiseLogo{
     height: 40px;
     width: 40px;
-  }
-  .navLogo{
-    background-color: aqua;
   }
   .navLink{
     display: none;
