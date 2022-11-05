@@ -18,6 +18,7 @@ header{
 
 nav ul li{
   margin:15px;
+  padding: 15px;
 }
 ul{
   display: flex;
@@ -90,6 +91,8 @@ li a:hover{
 .presentationTitle{
   margin: 0 auto;
   font-size: 3rem;
+  max-width: 800px;
+  text-align: center;
   color: #d9d9d9;
 }
 .presentationText{
@@ -349,13 +352,8 @@ footer{
   border:2px solid #2d405900;
   border-radius: 50%;
   margin: 10px 5px;
-  transition: .5s ;
-  opacity: 0.5;
+}
 
-}
-.socialSvgGroup li:hover{
-opacity: 1;
-}
 .year{
   font-size: 1.2rem;
   text-align: center;
