@@ -276,9 +276,20 @@ li a:hover{
     line-height: 0.2px;
     color:#F89406;
 }
-.point1, .point2, .point3, .point4, .point5{
+.point1{
   animation: lighting  2s linear 1s alternate infinite ;
-  text-align: center;
+}
+.point2{
+  animation: lighting  2s linear 3s alternate infinite ;
+}
+.point3{
+  animation: lighting  2s linear 4.3s alternate infinite ;
+}
+.point4{
+  animation: lighting  2s linear 2s alternate infinite ;
+}
+.point5{
+  animation: lighting  2s linear 1.5s alternate infinite ;
 }
 /*LIST STYLE ANIMATION*/
 
