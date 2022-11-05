@@ -94,16 +94,14 @@ li a:hover{
 }
 .presentationText{
   
-  margin: 5px auto;
+  margin:0 auto;
   max-width: 800px;
   text-align: center;
-  padding: 5px;
   font-size: 22px;
   color: #d9d9d9;
 }
 .myName{
   color: #F89406;
-
 }
 
 /*SKILLS*/
@@ -119,15 +117,68 @@ li a:hover{
   margin:15px 15px;
   
 }
-#SHIELD{
-  animation: reflection ease 5s infinite;
+#HTML-WHITE{
+  animation: HTML ease 5s forwards;
+} 
+#CSS-WHITE{
+  animation: CSS ease 5s 1s forwards;
 }
-@keyframes reflection{
+#JAVASCRIPT-WHITE{
+  animation:JS ease 5s  1.5s forwards;
+}
+ #BOOTSTRAP4-WHITE{
+  animation: B4 ease 5s 2s forwards;
+}
+#REACT-WHITE{
+  animation: RJS ease 5s 3s forwards;
+}
+@keyframes HTML{
   0%{
     stroke-dasharray: 60px;
   }
   100%{
-    stroke-dasharray: 100px;
+    stroke-dasharray: 800px;
+    fill: #e54c26be;
+  }
+}
+@keyframes CSS{
+  0%{
+    stroke-dasharray: 60px;
+  }
+  100%{
+    stroke-dasharray: 800px;
+    fill: #264CE4be;
+   
+  }
+}
+@keyframes JS{
+  0%{
+    stroke-dasharray: 60px;
+  }
+  100%{
+    stroke-dasharray: 700px;
+    fill: #F0DB4Dbe;
+    
+   
+  }
+}
+@keyframes B4{
+  0%{
+    stroke-dasharray: 60px;
+  }
+  100%{
+    stroke-dasharray: 500px;
+    fill: #563D7Cbe;
+   
+  }
+}
+@keyframes RJS{
+  0%{
+    stroke-dasharray: 60px;
+  }
+  100%{
+    stroke-dasharray: 500px;
+    fill: #00D8FFbe;
    
   }
 }
@@ -135,16 +186,40 @@ li a:hover{
 /*PROJECTS*/
 .projects{
   background-color: #222831;
+
 }
 
 .project1, .project2, .project3{
-  height: 300px;
+  height: 315px;
   width: 250px;
   padding: 1rem;
+  text-align: center;
   background-color: #f8930600;
   border:3px solid #F89406;
   border-radius: 15px;
   margin: 15px auto;
+  color: #d9d9d9;
+}
+.project1 img{
+  margin: 0 auto;
+  width: 210px;
+  height: 210px;
+  border-radius: 3px;
+  padding: 5px;
+}
+.project2 img{
+  margin: 0 auto;
+  width: 210px;
+  height: 210px;
+  border-radius: 3px;
+  padding: 5px;
+}
+.project3 img{
+  margin: 0 auto;
+  width: 210px;
+  height: 210px;
+  border-radius: 3px;
+  padding: 5px;
 }
 .group{
   display: flex;
@@ -174,29 +249,7 @@ li a:hover{
 }
 .available{
   color:#22e011d9;
-  animation: light2 ease 5s infinite;
 }
-@keyframes light2{
-    0%{
-        opacity: 0.9;
-      
-    }
-    60%{
-        opacity: 0.8;
-        
-       
-    }
-    80%{
-        opacity: 0.7;
-     
-    }
-    100%
-    {
-        opacity: 1;
-      
-      
-    }
-  }
 .unavailable{
   color:#ed2416ab;
 }
@@ -294,17 +347,20 @@ footer{
 .socialSvgGroup li{
   padding: 10px;
   border:2px solid #2d405900;
-  border-radius: 5px;
+  border-radius: 50%;
   margin: 10px 5px;
+  transition: .5s ;
+  opacity: 0.5;
+
 }
 .socialSvgGroup li:hover{
- background-color: #2D4059;
+opacity: 1;
 }
 .year{
   font-size: 1.2rem;
   text-align: center;
   padding: 15px;
-  color:#d9d9d9;
+  color:#6b737d;
 }
 footer ul{
   display: flex;
@@ -331,6 +387,38 @@ footer ul{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+  }
+  .group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .project1, .project2, .project3{
+    height: 300px;
+    width: 270px;
+    padding: 1rem;
+    background-color: #f8930600;
+    border:2px solid #F89406;
+    border-radius: 15px;
+    margin: 15px auto;
+  }
+
+}
+
+@media (max-width:570px) {
+  #FanyLouiseLogo{
+    height: 40px;
+    width: 40px;
+  }
+  .presentation h1{
+    text-align: center;
+  }
+  .techs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .group{
     display: flex;
@@ -343,7 +431,7 @@ footer ul{
     width: 270px;
     padding: 1rem;
     background-color: #f8930600;
-    border:3px solid #F89406;
+    border:2px solid #F89406;
     border-radius: 15px;
     margin: 15px auto;
   }
