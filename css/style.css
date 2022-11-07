@@ -93,13 +93,12 @@ li a:hover{
   margin:0 auto;
   max-width: 800px;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   color: #d9d9d9;
 }
 .myName{
   color: #F89406;
 }
-
 /*SKILLS*/
 .mainSkills{
   display: flex;
@@ -110,72 +109,90 @@ li a:hover{
   
 }
 .techs li{
-  margin:15px 15px;
+  margin:15px 5px;
+  width: 100%;
+
   
 }
 #HTML-WHITE{
-  animation: HTML ease 5s forwards;
+  animation: HTML ease 10s forwards;
 } 
 #CSS-WHITE{
-  animation: CSS ease 5s 1s forwards;
+  animation: CSS ease 10s forwards;
 }
 #JAVASCRIPT-WHITE{
-  animation:JS ease 5s  1.5s forwards;
+  animation:JS ease 10s forwards;
 }
  #BOOTSTRAP4-WHITE{
-  animation: B4 ease 5s 2s forwards;
+  animation: B4 ease 10s 2s forwards;
 }
 #REACT-WHITE{
-  animation: RJS ease 5s 3s forwards;
+  animation: RJS ease 10s 3s forwards;
 }
 @keyframes HTML{
   0%{
     stroke-dasharray: 60px;
   }
-  100%{
+  99%{
     stroke-dasharray: 800px;
     fill: #e54c26be;
+  }
+  100%{
+    stroke-dasharray: 801px;
+    fill: #222831;
   }
 }
 @keyframes CSS{
   0%{
     stroke-dasharray: 60px;
   }
-  100%{
+  99%{
     stroke-dasharray: 800px;
     fill: #264CE4be;
-   
+  }
+  100%{
+    stroke-dasharray: 801px;
+    fill: #222831;
   }
 }
 @keyframes JS{
   0%{
     stroke-dasharray: 60px;
   }
-  100%{
+  99%{
     stroke-dasharray: 700px;
     fill: #F0DB4Dbe;
-    
-   
+  }
+  100%{
+    stroke-dasharray: 801px;
+    fill: #222831;
   }
 }
 @keyframes B4{
   0%{
     stroke-dasharray: 60px;
   }
-  100%{
+  99%{
     stroke-dasharray: 500px;
     fill: #563D7Cbe;
    
+  }
+  100%{
+    stroke-dasharray: 801px;
+    fill: #222831;
   }
 }
 @keyframes RJS{
   0%{
     stroke-dasharray: 60px;
   }
-  100%{
+  99%{
     stroke-dasharray: 500px;
     fill: #00D8FFbe;
-   
+  }
+  100%{
+    stroke-dasharray: 801px;
+    fill: #222831;
   }
 }
 
@@ -232,6 +249,10 @@ li a:hover{
 .ilustration svg{
   margin-bottom: 40px;
 }
+.presentationText{
+  padding: 15px;
+  font-size:20px ;
+}
 .available{
   color:#22e011d9;
 }
@@ -264,12 +285,14 @@ li a:hover{
   align-items: center;
   flex-direction: column;
 }
+.formation li p{
+  font-size: 20px;
+}
 .courses{
   display: flex;
   justify-content:center;
   align-items: center;
-
-  
+   
 }
 .points{
     font-size: 5rem;
