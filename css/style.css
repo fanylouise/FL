@@ -1,5 +1,14 @@
+/*
+COLORS
+#222831;
+#2D4059;
+#D9D9D9;
+#F89406.
+*/
+
 /*FONT*/
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 
 /*GERAL*/ 
 *{
@@ -47,6 +56,11 @@ p{
   font-size: 3rem;
   text-align: center;
   padding: 2rem;
+}
+.blue{
+  background-color: #222831;
+  margin: 0;
+  padding: 15px;
 }
 li a{
   text-decoration: none;
@@ -197,47 +211,102 @@ li a:hover{
 }
 
 /*PROJECTS*/
-.projects{
+#projects{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
   background-color: #222831;
-
 }
-
-.project1, .project2, .project3{
-  height: 315px;
-  width: 250px;
-  padding: 1rem;
+.project{
+  border-radius: 5px;
+  max-width:400px ;
+  min-height: 300px;
+  padding: 15px;
+}
+.project h1{
+  color: #000000;
   text-align: center;
-  background-color: #f8930600;
-  border:3px solid #F89406;
-  border-radius: 15px;
-  margin: 15px auto;
+}
+.project h4{
+  text-align: center;
   color: #d9d9d9;
+  padding: 15px 15px 5px 15px;
 }
-.project1 img{
-  margin: 0 auto;
-  width: 210px;
-  height: 210px;
+.project p{
+  text-align: center;
+  color: #d9d9d9;
+  font-size: 16px;
+}
+.project ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items:center;
+  background-color: #09D5EFbe;
+  margin: 0;
+}
+.project ul li{
+  font-size: 10px;
+  background-color: #2D4059;
+  color: rgba(217, 217, 217, 0.500);
+  margin: 5px;
   border-radius: 3px;
+  width: 50px;
+  height: 20px;
   padding: 5px;
+  text-align: center;
+
 }
-.project2 img{
-  margin: 0 auto;
-  width: 210px;
-  height: 210px;
-  border-radius: 3px;
-  padding: 5px;
-}
-.project3 img{
-  margin: 0 auto;
-  width: 210px;
-  height: 210px;
-  border-radius: 3px;
-  padding: 5px;
-}
-.group{
+div .buttonSee{
+  max-width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+div .buttonSee svg{
+  margin: 10px;
+}
+.top{
+  background-color: #09D5EF;
+  border-radius: 5px 5px 5px 5px;
+  height: 40%;
+}
+.p2 .top{
+  background-color: #e51162;
+}
+.p2 .top ul{
+  background-color: #e51162;
+}
+.p3 .top{
+  background-color: #e52611;
+}
+.p3 .top ul{
+  background-color: #e52611;
+}
+.p4 .top{
+  background-color: #11e589;
+}
+.p4 .top ul{
+  background-color: #11e589;
+}
+.p5 .top{
+  background-color: #1186e5;
+}
+.p5 .top ul{
+  background-color: #1186e5;
+}
+.p6 .top{
+  background-color: #e5d711;
+}
+.p6 .top ul{
+  background-color: #e5d711;
+}
+.bottom{
+  background-color:#2D4059;
+  border-radius: 0px 0px 5px 5px;
+  height: 60%;
+
 }
 
 /*ABOUT*/
@@ -245,6 +314,7 @@ li a:hover{
 .about{
   background-color: #222831;
   text-align: center;
+  width: 100%;
 }
 .ilustration svg{
   margin-bottom: 40px;
@@ -252,6 +322,7 @@ li a:hover{
 .presentationText{
   padding: 15px;
   font-size:20px ;
+
 }
 .available{
   color:#22e011d9;
@@ -277,6 +348,15 @@ li a:hover{
 .resume a:hover{
   color: #d9d9d9;
   text-decoration: none;
+}
+.employmentInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  max-width: 450px;
+  border-radius: 5px;
+  border: 2px solid #d9d9d97c;
 }
 .formation{
   list-style: none;
@@ -432,6 +512,11 @@ footer ul{
     border:2px solid #F89406;
     border-radius: 15px;
     margin: 15px auto;
+  }
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 }
