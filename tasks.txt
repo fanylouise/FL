@@ -8,6 +8,8 @@ Fazer resume em ingles e em português, fazer o 'JS' para dependendo da esoclha 
 
 Fazer a transição do hover de todos os links + suave;
 
+Arrumar tags de tecnoçogias(o alinhamento dos textos de forma vertical e Horizontal);
+
 Limpar código;
 
 Adicionar mesma animação do botão de resume nos botões de projetos;
