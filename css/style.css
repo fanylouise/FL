@@ -263,6 +263,7 @@ div .buttonSee{
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 div .buttonSee svg{
   margin: 10px;
@@ -310,7 +311,15 @@ div .buttonSee svg{
 }
 
 /*ABOUT*/
-
+.range{
+  background-image: url(../assets/svgs/doubleSimbols.svg);
+  opacity: 0.3;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.backgroundSimbols{
+  line-height: 200px;
+}
 .about{
   background-color: #222831;
   text-align: center;
@@ -331,33 +340,41 @@ div .buttonSee svg{
   color:#ed2416ab;
 }
 .resume{
-  border: 3px solid #F89406;
-  background-color: #22283100;
+  background-color: #F89406;
+
   border-radius: 5px;
+  border: 0px;
   height: 50px;
   width: 150px;
   margin: 10px 0px;
-  padding: 5px;
-
+  padding: 3px;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
-.resume a{
+a .resume{
   font-size: 1.5rem;
   text-decoration: none;
-  color: #F89406;
+  color: #000000;
+}
+.resume:hover,
+.resume:focus,
+.resume:active{
+  color:#000000;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .resume a:hover{
-  color: #d9d9d9;
+  color:#000000;
   text-decoration: none;
+
 }
-.employmentInfo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px auto;
-  max-width: 450px;
-  border-radius: 5px;
-  border: 2px solid #d9d9d97c;
-}
+
 .formation{
   list-style: none;
   display: flex;
