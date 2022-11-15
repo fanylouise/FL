@@ -26,8 +26,8 @@ header{
 }
 
 nav ul li{
-  margin:15px;
-  padding: 15px;
+  padding: 15px 15px 15px 15px;
+  margin:  0px 10px 10px 10px;
 }
 ul{
   display: flex;
@@ -46,6 +46,7 @@ li{
 }
 .headerLogo{
   margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;  
 }
 p{
@@ -188,13 +189,14 @@ li a:hover{
 div .buttonSee{
   max-width: 400px;
   display: flex;
+  padding: 15px;
   justify-content: center;
   align-items: center;
 
 }
-div .buttonSee svg{
+/* div .buttonSee svg{
   margin: 10px;
-}
+} */
 .top{
   background-color: #09D5EF;
   border-radius: 5px 5px 5px 5px;
@@ -401,6 +403,9 @@ footer ul{
   .navLink{
     display: none;
   }
+  ul li{
+margin-bottom: 15px;
+  }
   .presentation h1{
     text-align: center;
   }
@@ -462,5 +467,6 @@ footer ul{
     justify-content: center;
     align-items: center;
   }
+
 
 }
