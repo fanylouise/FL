@@ -13,3 +13,5 @@ Arrumar tags de tecnoçogias(o alinhamento dos textos de forma vertical e Horizo
 Limpar código;
 
 Adicionar mesma animação do botão de resume nos botões de projetos;
+
+Refazer cards;
