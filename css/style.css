@@ -25,21 +25,27 @@ header{
   background-color: #222831;
   width: 100%;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-nav ul li{
-  padding: 15px 15px 15px 15px;
-  margin:  0px 10px 10px 10px;
-}
+ nav ul li{
+  padding: 15px;
+  margin:10px;
+} 
 ul{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
   background-color: #222831;
+  list-style: none;
 }
 svg{
   width: 100%;
+}
+h2{
+  color:#2D4059; 
 }
 li{
   font-size: 22px;
@@ -60,14 +66,9 @@ p{
 }
 .titles{
   color: #F89406;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   padding: 2rem;
-}
-.blue{
-  background-color: #222831;
-  margin: 0;
-  padding: 15px;
 }
 li a{
   text-decoration: none;
@@ -198,9 +199,6 @@ div .buttonSee{
   align-items: center;
 
 }
-/* div .buttonSee svg{
-  margin: 10px;
-} */
 .top{
   background-color: #09d4ef;
   border-radius: 5px 5px 5px 5px;
@@ -240,23 +238,18 @@ div .buttonSee{
 .bottom{
   background-color:#2D4059;
   border-radius: 0px 0px 5px 5px;
-  height: 180px;
+  height: 150px;
 }
 
 /*ABOUT*/
-.range{
-  background-image: url(../assets/svgs/doubleSimbols.svg);
-  opacity: 0.3;
-  max-width: 50%;
-  margin: 0 auto;
-}
-.backgroundSimbols{
-  line-height: 200px;
-}
 .about{
   background-color: #222831;
   text-align: center;
   width: 100%;
+}
+h2.iDo{
+  padding: 15px;
+  text-align: center;
 }
 .ilustration svg{
   margin-bottom: 40px;
@@ -279,7 +272,7 @@ div .buttonSee{
   border: 0px;
   height: 50px;
   width: 150px;
-  margin: 10px 0px;
+  margin:15px;
   padding: 3px;
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -307,26 +300,15 @@ a .resume{
   text-decoration: none;
 
 }
-
-.formation{
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.goToContacts{
+  text-decoration: none;
+  color: #F89406;
 }
-.formation li p{
-  font-size: 20px;
-}
-.courses{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-   
+.goToContactsa a:hover{
+  text-decoration: overline;
 }
 .points{
     font-size: 5rem;
-    line-height: 0.2px;
     color:#F89406;
 }
 .point1{
@@ -375,6 +357,7 @@ a .resume{
 footer{
   background-color: #222831;
   border-top: 2px solid #2D4059;
+  margin-top: 1.5rem;
 }
 .socialSvgGroup{
   list-style: none;
