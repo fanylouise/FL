@@ -30,14 +30,15 @@ header{
   align-items: center;
 }
 
- nav ul li{
+nav ul li{
   padding: 15px;
   margin:10px;
-} 
+
+}  
 ul{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items:center;
   background-color: #222831;
   list-style: none;
 }
@@ -300,13 +301,7 @@ a .resume{
   text-decoration: none;
 
 }
-.goToContacts{
-  text-decoration: none;
-  color: #F89406;
-}
-.goToContactsa a:hover{
-  text-decoration: overline;
-}
+
 .points{
     font-size: 5rem;
     color:#F89406;
