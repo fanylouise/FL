@@ -1,0 +1,47 @@
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+:root{
+  --main-color-orange:#F89406;
+  --blue-background-color:#2D4059;
+  --dark-blue:#20242a;
+  --font-color-white:#D9D9D9;
+  --card-background-color:#f8930600;
+  --black:#000;
+  --montserrat:'Montserrat', Arial, sans-serif;
+  --source-sans-pro:'Source Sans Pro', Arial, sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--dark-blue);
+  margin: 0px 172px;
+}
+
+svg{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:var(--main-color-orange);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d17a00;}

@@ -1,0 +1,20 @@
+
+.resume{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--montserrat);
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid var(--main-color-orange);
+  height: 40px;
+  width: 150px;
+  color: var(--font-color-white);
+  font-size: 1.5rem;
+}
+
+.resume:hover{
+cursor: pointer;
+
+}
+

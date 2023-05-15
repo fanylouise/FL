@@ -1,0 +1,40 @@
+.about{
+  background-image:url(../assets/svgs/parabolic-rectangle.svg) no-repeat ;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  height: 100vh;
+}
+.imageLeft{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.imageLeft h3{
+  color: var(--font-color-white); 
+  font-size:36px;
+  font-family: var(--source-sans-pro);
+  font-weight: 400;
+  padding: 8px;
+}
+.aboutText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.aboutText h2{
+  color: var(--font-color-white);
+  font-family: var(--source-sans-pro);
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 125px;
+}
+.aboutText p{ 
+  color: var(--font-color-white);
+  font-family: var(--montserrat);
+  font-size: 18px;
+  text-align: center;
+  margin: 0 26px;
+}
