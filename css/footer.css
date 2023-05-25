@@ -24,7 +24,7 @@ footer ul li{
 }
 .copyright{
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
   align-items:center ;
   padding: 8px;
   margin: 8px;
@@ -34,4 +34,27 @@ footer ul li{
 }
 footer p{
   margin-left: 32px;
+}
+
+
+@media (max-width:450px) {
+
+  ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section.social{
+    margin: 0;
+  }
+  footer p{
+    font-size: 12px;
+    margin: 0;
+  }
+  svg.logoFooter{
+    width: 35px;
+    height: 35px;
+  }
+  
 }

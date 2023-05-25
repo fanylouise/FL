@@ -1,0 +1,27 @@
+#portifolio{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+}
+h3 {
+  color: var(--font-color-white);
+  font-size: 36px;
+  font-family: var(--source-sans-pro);
+  font-weight: 400;
+  padding: 8px;
+}
+.cards-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  padding: 25px;
+  margin: 10px;
+  border: 1px solid red;
+  border-radius: 8px;
+  width: 250px;
+  height: 200px;
+}
