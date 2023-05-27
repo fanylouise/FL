@@ -1,0 +1,30 @@
+#services ul{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-direction: row;
+  padding: 16px;
+  text-align: center;
+  margin-top: 50px;
+}
+#services ul li{
+  margin: 10px;
+}
+#services h3{
+  color: var(--font-color-white);
+  font-family: var(--source-sans-pro);
+  font-size:26px;
+  font-weight: 400;
+}
+@media (max-width:414px) {
+  #services ul{
+    flex-direction: column;
+  }
+ 
+}
+@media (max-width:760px) {
+  #services ul{
+    flex-direction: column;
+  }
+ 
+}

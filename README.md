@@ -1,4 +1,6 @@
 ## FL Portifólio
 
-# almost ready here
+# Almost ready here
 https://fanylouise.netlify.app/
+
+# Tools

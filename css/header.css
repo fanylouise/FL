@@ -19,9 +19,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items:center;
-  background-color: var(--dark-blue);
   list-style: none;
- 
 }
 
 .nav li a{
@@ -38,22 +36,13 @@ header{
 }
 
 
-@media (max-width:450px) {
-  header{
-    border: none;
-  }
-  ul{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-.non{
-display: none;
-  }
-}
-
 @media (max-width:568px) {
+  .headerLogo{
+    margin: 5px auto;
+  }
+  .nav{
+    justify-content: center;
+  }
   ul{
     display: flex;
     justify-content: center;
@@ -64,6 +53,9 @@ display: none;
   }
   .nav li{
     font-size: 25px;
+  }
+  .non{
+display: none;
   }
  
 

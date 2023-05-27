@@ -3,7 +3,7 @@ let currentYear = new Date().getFullYear()
 let current = (document.querySelector('.current').innerHTML = currentYear)
 let span = document.querySelector('.skill')
 
-let skills = ['FrontEnd', 'UX Design', 'Web Design', 'Motion'];
+let skills = ['FrontEnd', 'UI&UX Design', 'Web Design', 'Motion', 'Wordpress'];
 
 let tl = gsap.timeline({ defaults: { duration: 0.75, ease: 'Power3.easeOut' } })
 tl.fromTo('.headerLogo', { scale: 1.4 }, { scale: 1.2, delay: 0.2, duration: 1.5, ease:"elastic.out(0.5)" })
@@ -15,9 +15,10 @@ tl.fromTo('.a-3',{ x:-10, opacity:0},{x:10, opacity:1, delay:0.1, duration:1.2},
 
 
 //skills ramdom
-let loopi = (max = 4)=>{
+let loopi = (max = 5)=>{
 
-span.innerText=(skills[Math.floor(Math.random() * max)])
+span.innerText=(
+  skills[Math.floor(Math.random() * max)])
 }
 setInterval(loopi, 2000)
 
@@ -64,8 +65,8 @@ gsap.to('.element-3', {
   yoyoEase: true
 })
 gsap.to('.element-4', {
-  x: 10,
-  y: 800, // any properties (not limited to CSS)
+  x: 100,
+  y: 15, // any properties (not limited to CSS)
   delay: 0,
   duration: 30,
   ease: 'none',
@@ -77,7 +78,7 @@ gsap.to('.element-4', {
   yoyoEase: true
 })
 gsap.to('.element-5', {
-  x: 500,
+  x: 400,
   y: 150, // any properties (not limited to CSS)
   delay: 0,
   duration: 30,
