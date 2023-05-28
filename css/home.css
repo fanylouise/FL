@@ -1,23 +1,22 @@
-.home{
+.home {
   display: flex;
-   justify-content: space-between; 
-   align-items: center;
-   height: 90vh;
-   margin-bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+  margin-bottom: 0;
 }
-.home ul{
+.home ul {
   list-style: none;
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
   min-width: 150px;
   margin-bottom: 50px;
   margin-top: 30px;
-
 }
-.home ul li{
- padding-left: 10px;
+.home ul li {
+  padding-left: 10px;
 }
-.homeCopy{
+.homeCopy {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -26,7 +25,7 @@
   height: 100%;
   width: 100%;
 }
- .homeImg{
+.homeImg {
   padding: 8px;
   display: flex;
   justify-content: center;
@@ -34,95 +33,90 @@
   opacity: 0.8;
   flex-direction: column;
   transition: opacity 0.7s ease-out;
- }
- .homeImg:hover{
-  opacity: 0.5 ;
+}
+.homeImg:hover {
+  opacity: 0.5;
   cursor: pointer;
- }
-.home h1{
+}
+.home h1 {
   font-size: 80px;
   color: var(--font-color-white);
   font-weight: 500;
 }
-.home h3{
+.home h3 {
   font-size: 26px;
-  color: #2D4059;
+  color: #2d4059;
 }
-.home span{
+.home span {
   color: var(--main-color-orange);
-  text-shadow: 0px 1px 7px rgba(244, 201, 33, 0.37);
+  text-shadow: 0 1px 7px rgba(244, 201, 33, 0.37);
   font-size: 50px;
   padding: 5px;
 }
-.home p{
+.home p {
   font-size: 16px;
   font-weight: 500;
   margin-top: 12px;
   color: var(--font-color-white);
 }
-
-
-@media (max-width:450px) {
-  .home h1{
+@media (max-width: 450px) {
+  .home h1 {
     font-size: 40px;
     text-align: center;
     padding: 5px;
   }
-  .home h3{
+  .home h3 {
     font-size: 20px;
     margin: 0 auto;
   }
-  .home p{
+  .home p {
     text-align: center;
     padding: 5px;
   }
-  .homeImg{
+  .homeImg {
     display: none;
   }
-  span.skill{
+  span.skill {
     font-size: 25px;
     text-align: center;
     margin: 0 auto;
   }
-  section.homeCopy{
+  section.homeCopy {
     margin: 0;
     padding: 0;
   }
-  .home ul{
+  .home ul {
     margin: 16px auto;
     justify-content: center;
   }
- 
 }
-
-@media (min-width:700px) {
-  .home{
+@media (min-width: 700px) {
+  .home {
     flex-direction: column;
   }
-  h3.a-1{
+  h3.a-1 {
     text-align: center;
     padding: 8px;
   }
-  .a-3{
+  .a-3 {
     font-size: 20px;
     text-align: center;
     margin: 0 auto;
   }
-  .home p{
+  .home p {
     text-align: center;
     font-size: 18px;
   }
-  section.socialHome{
+  section.socialHome {
     display: flex;
     justify-content: center;
     align-items: center;
   }
- .a-2{
-  font-size: 15px;
-  margin: 0 auto;
- }
- .homeImg{
-  display: none;
-}
-
+  .a-2 {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+  .homeImg {
+    display: none;
+  }
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 .about {
   display: flex;
   justify-content: center;
@@ -10,8 +10,6 @@
   display: flex;
   align-items: center;
   padding: 5px;
-
-
 }
 .imageLeft {
   display: flex;
@@ -30,8 +28,6 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-
-
 }
 .aboutText h2 {
   color: var(--font-color-white);
@@ -62,8 +58,6 @@
   opacity: 0.3;
   overflow: hidden;
   z-index: -999;
-
-
 }
 .element-1 {
   margin-left: -160px;
@@ -84,42 +78,37 @@
   margin-top: 600px;
   margin-right: -50px;
 }
-@media (max-width:450px) {
-  #about h3{
+@media (max-width: 450px) {
+  #about h3 {
     text-align: center;
     font-size: 26px;
   }
-  #about h2{
+  #about h2 {
     font-size: 40px;
     margin: 0;
     padding: 0;
   }
-  .aboutContent{
+  .aboutContent {
     flex-direction: column;
   }
-  .imageLeft img{
+  .imageLeft img {
     width: 200px;
     height: 200px;
     margin-top: 0;
   }
- 
 }
-
-@media (min-width:700px) {
-  
- #about p {
-  font-size: 16px;
- }
- .aboutContent{
-   flex-direction: column;
- }
- #about img{
-  width: 300px;
-  height: 300px;
- }
- #about h2{
-  font-size: 76px;
- }
-
- 
+@media (min-width: 700px) {
+  #about p {
+    font-size: 16px;
+  }
+  .aboutContent {
+    flex-direction: column;
+  }
+  #about img {
+    width: 300px;
+    height: 300px;
+  }
+  #about h2 {
+    font-size: 76px;
+  }
 }

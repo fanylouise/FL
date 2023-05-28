@@ -1,4 +1,4 @@
-footer{
+footer {
   display: flex;
   justify-content: space-around;
   font-family: var(--montserrat);
@@ -6,34 +6,30 @@ footer{
   padding: 8px;
   border-top: 2px solid var(--blue-background-color);
 }
-footer ul{
+footer ul {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-footer p{
+footer p {
   align-self: center;
 }
-
-footer ul li{
+footer ul li {
   padding: 8px;
-
 }
-@media (max-width:450px) {
-
+@media (max-width: 450px) {
   footer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  footer p{
+  footer p {
     font-size: 10px;
   }
-  footer svg{
-    width: 35px;
-    height: 35px;
+  footer svg {
+    width: 40px;
+    height: 40px;
   }
-  
 }
