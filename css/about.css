@@ -16,13 +16,6 @@
   justify-content: center;
   flex-direction: column;
 }
-.imageLeft h3 {
-  color: var(--font-color-white);
-  font-size: 36px;
-  font-family: var(--source-sans-pro);
-  font-weight: 400;
-  padding: 8px;
-}
 .aboutText {
   display: flex;
   flex-direction: column;
@@ -95,6 +88,25 @@
     width: 200px;
     height: 200px;
     margin-top: 0;
+  }
+  .element-1 {
+    margin-left: -60px;
+    margin-top: 200px;
+  }
+  .element-2 {
+    margin-left: 100px;
+    margin-top:23px;
+  }
+  .element-3 {
+    margin-top: -20px;
+  }
+  .element-4 {
+    margin-top: -50px;
+    margin-right: -60px;
+  }
+  .element-5 {
+    margin-top: 55px;
+    margin-right: -50px;
   }
 }
 @media (min-width: 700px) {

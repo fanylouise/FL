@@ -1,7 +1,10 @@
 header {
   padding-top: 5px;
-  border-bottom: 2px solid var(--blue-background-color);
+ 
   font-family: var(--source-sans-pro);
+}
+header nav ul{
+  display: flex;
 }
 .headerLogo {
   width: 40px;
@@ -11,9 +14,10 @@ header {
 }
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
+  gap: 1;
 }
 .nav li a {
   color: var(--font-color-white);

@@ -29,7 +29,7 @@ gsap.to('.element-1', {
   x: -1000,
   y: -100, // any properties (not limited to CSS)
   delay: 0,
-  duration: 30,
+  duration: 20,
   ease: 'none',
   stagger: 0.1, // stagger start times
   repeat: -1, // number of repeats (-1 for infinite)
@@ -42,7 +42,7 @@ gsap.to('.element-2', {
   x: 500,
   y: -300, // any properties (not limited to CSS)
   delay: 0,
-  duration: 30,
+  duration: 20,
   ease: 'none',
   stagger: 0.1, // stagger start times
   repeat: -1, // number of repeats (-1 for infinite)
@@ -55,7 +55,7 @@ gsap.to('.element-3', {
   x: -1000,
   y: 100, // any properties (not limited to CSS)
   delay: 0,
-  duration: 30,
+  duration: 20,
   ease: 'none',
   stagger: 0.1, // stagger start times
   repeat: -1, // number of repeats (-1 for infinite)
@@ -68,7 +68,7 @@ gsap.to('.element-4', {
   x: 100,
   y: 15, // any properties (not limited to CSS)
   delay: 0,
-  duration: 30,
+  duration: 20,
   ease: 'none',
   stagger: 0.1, // stagger start times
   repeat: -1, // number of repeats (-1 for infinite)
@@ -81,7 +81,7 @@ gsap.to('.element-5', {
   x: 400,
   y: 150, // any properties (not limited to CSS)
   delay: 0,
-  duration: 30,
+  duration: 20,
   ease: 'none',
   stagger: 0.1, // stagger start times
   repeat: -1, // number of repeats (-1 for infinite)
