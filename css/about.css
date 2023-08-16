@@ -4,37 +4,22 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  flex-direction: column;
 }
 .aboutContent {
-  height: 100vh;
   display: flex;
   align-items: center;
-  padding: 5px;
-}
-.imageLeft {
-  display: flex;
   justify-content: center;
-  flex-direction: column;
 }
-.aboutText {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-.aboutText h2 {
-  color: var(--font-color-white);
-  font-family: var(--source-sans-pro);
-  font-size: 120px;
-  font-weight: 400;
-}
-.aboutText p {
+.about p{
   color: var(--font-color-white);
   font-family: var(--montserrat);
-  font-size: 18px;
   text-align: center;
   margin: 10px;
+  font-size: 30px;
 }
+
+/*
 .backgroundMotion {
   position: absolute;
   display: flex;
@@ -52,73 +37,30 @@
   overflow: hidden;
   z-index: -999;
 }
-.element-1 {
-  margin-left: -160px;
-  margin-top: 200px;
-}
-.element-2 {
-  margin-left: 300px;
-  margin-top: 630px;
-}
-.element-3 {
-  margin-top: -20px;
-}
-.element-4 {
-  margin-top: -50px;
-  margin-right: -560px;
-}
-.element-5 {
-  margin-top: 600px;
-  margin-right: -50px;
-}
+*/
 @media (max-width: 450px) {
   #about h3 {
     text-align: center;
     font-size: 26px;
   }
-  #about h2 {
-    font-size: 40px;
-    margin: 0;
-    padding: 0;
-  }
   .aboutContent {
     flex-direction: column;
   }
-  .imageLeft img {
-    width: 200px;
+  .about p{
+    font-size: 20px;
+  }
+  .about h2{
+    font-size: 40px;
+    margin: 50px 0;
+  }
+  img{
     height: 200px;
-    margin-top: 0;
-  }
-  .element-1 {
-    margin-left: -60px;
-    margin-top: 200px;
-  }
-  .element-2 {
-    margin-left: 100px;
-    margin-top:23px;
-  }
-  .element-3 {
-    margin-top: -20px;
-  }
-  .element-4 {
-    margin-top: -50px;
-    margin-right: -60px;
-  }
-  .element-5 {
-    margin-top: 55px;
-    margin-right: -50px;
+    width: 200px;
   }
 }
 @media (min-width: 700px) {
-  #about p {
-    font-size: 16px;
-  }
   .aboutContent {
     flex-direction: column;
-  }
-  #about img {
-    width: 300px;
-    height: 300px;
   }
   #about h2 {
     font-size: 76px;

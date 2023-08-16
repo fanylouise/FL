@@ -1,80 +1,68 @@
 .portifolio {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-
-.project-name{
-  color: var(--font-color-white);
-  font-size: 26px;
-  font-family: var(--source-sans-pro);
-  font-weight: 400;
- 
-}
-.title-2{
-  text-align: center;
-  font-size: 60px;
-  color: var(--font-color-white);
-  font-family: var(--source-sans-pro);
-  font-weight: 400;
-
-}
-.title-3{
-  color: var(--font-color-white);
-  font-family: var(--source-sans-pro);
-  font-weight: 400;
-  font-size: 20px;
-}
-.cards-container {
+.cards{
+  padding: 3rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: row;
+  align-items:center ;
 }
+
 .card {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid #eb8d0b;
+  border: 1px solid #eb8d0b;
   border-radius: 8px;
-  width: 280px;
+  width: 350px;
   height: 280px;
   margin: 50px 20px;
   padding: 5px;
 }
 .card:hover{
+  transition: 200ms linear  ;
+  cursor: pointer;
   transform: scale(1.1) ;
-  background-image: url(../assets/imagens/logo.gif);
   background-position: center;
-  padding: 5px;
 }
 ul {
   list-style: none;
 }
-@media (max-width: 414px) {
+.skills{
+  color: var(--main-color-orange);
+}
+@media (max-width: 425px) {
   .portifolio{
     flex-direction: column;
   }
-  .portifolio h3 {
+  .portifolio h2 {
     text-align: center;
-    font-size: 26px;
+    font-size: 40px;
     margin-top: 60px;
+  }
+  .portifolio h3{
+    font-size: 20px;
   }
   .card {
     margin: 10px;
     width: 200px;
     height: 200px;
   }
+  .cards{
+    flex-direction: column;
+  }
 }
 @media (min-width: 700px) {
-  .cards-container {
+  .cards{
     flex-wrap: wrap;
   }
   .card {
     margin: 10px;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 200px;
+    max-height: 200px;
   }
+ 
 }

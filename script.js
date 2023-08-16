@@ -16,17 +16,15 @@ tl.fromTo('.a-3',{ x:-10, opacity:0},{x:10, opacity:1, delay:0.1, duration:1.2},
 
 //skills ramdom
 let loopi = (max = 5)=>{
-
 span.innerText=(
   skills[Math.floor(Math.random() * max)])
 }
 setInterval(loopi, 2000)
 
 
-//rectangles 
 
-gsap.to('.element-1', {
-  x: -1000,
+/*gsap.to('.element-1', {
+  x: -700,
   y: -100, // any properties (not limited to CSS)
   delay: 0,
   duration: 20,
@@ -52,8 +50,8 @@ gsap.to('.element-2', {
   yoyoEase: true
 })
 gsap.to('.element-3', {
-  x: -1000,
-  y: 100, // any properties (not limited to CSS)
+  x: -800,
+  y: -300, // any properties (not limited to CSS)
   delay: 0,
   duration: 20,
   ease: 'none',
@@ -66,7 +64,7 @@ gsap.to('.element-3', {
 })
 gsap.to('.element-4', {
   x: 100,
-  y: 15, // any properties (not limited to CSS)
+  y: -400, // any properties (not limited to CSS)
   delay: 0,
   duration: 20,
   ease: 'none',
@@ -78,8 +76,8 @@ gsap.to('.element-4', {
   yoyoEase: true
 })
 gsap.to('.element-5', {
-  x: 400,
-  y: 150, // any properties (not limited to CSS)
+  x: 300,
+  y: 221, // any properties (not limited to CSS)
   delay: 0,
   duration: 20,
   ease: 'none',
@@ -91,3 +89,4 @@ gsap.to('.element-5', {
   yoyoEase: true
 })
 
+*/

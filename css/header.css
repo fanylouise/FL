@@ -1,52 +1,25 @@
 header {
-  padding-top: 5px;
- 
   font-family: var(--source-sans-pro);
 }
 header nav ul{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .headerLogo {
-  width: 40px;
-  height: 40px;
+  width: 70px;
+  height: 70px;
   margin-top: 5px;
-  margin-bottom: 5px;
-}
-.nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  gap: 1;
-}
-.nav li a {
-  color: var(--font-color-white);
-  font-size: 25px;
-  text-align: center;
-}
-.nav li a:hover {
-  color: var(--main-color-orange);
-  transition: opacity 0.7s ease-out;
 }
 @media (max-width: 568px) {
   .headerLogo {
-    margin: 5px auto;
-  }
-  .nav {
-    justify-content: center;
+    margin: 25px auto;
+    width: 40px;
+    height: 40px;
   }
   ul {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .nav ul li {
-    font-size: 16px;
-  }
-  .nav li {
-    font-size: 25px;
-  }
-  .non {
-    display: none;
   }
 }
