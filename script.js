@@ -6,7 +6,7 @@ let span = document.querySelector('.skill')
 let skills = ['FrontEnd', 'UI&UX Design', 'Web Design', 'Motion', 'Wordpress'];
 
 let tl = gsap.timeline({ defaults: { duration: 0.75, ease: 'Power3.easeOut' } })
-tl.fromTo('.headerLogo', { scale: 1.4 }, { scale: 1.2, delay: 0.2, duration: 1.5, ease:"elastic.out(0.5)" })
+tl.fromTo('.headerLogo', { scale: 1.4 }, { scale: 1.2, y:'56px',duration: 1.5, ease:"elastic.out(0.5)" })
 
 tl.fromTo('.a-1',{ x:-10, opacity:0},{x:10, opacity:1, delay:0.1, duration:1.2}, "<5%" )
 tl.fromTo('.a-2',{ x:-10, opacity:0},{x:10, opacity:1, delay:0.1, duration:1.2}, "<9%" )

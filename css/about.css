@@ -18,7 +18,10 @@
   margin: 10px;
   font-size: 30px;
 }
-
+.orange{
+  color: var(--main-color-orange);
+  border-bottom: 2px solid var(--main-color-orange);
+}
 /*
 .backgroundMotion {
   position: absolute;
